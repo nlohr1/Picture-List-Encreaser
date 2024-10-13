@@ -5,7 +5,9 @@ If this JS snippet is inserted between the &lt;header&gt; and the &lt;body&gt; o
 A second click will resize the image to the width and height specified in the file.
 
 **Important:**<br>
-Each pic must have declared its own with, for ex.:  <b>&lt;img src="data:image/png;base64,......" alt="" width="20px" height="20px"&gt;</b>
+Each image must contain its own width (and height), for ex.:  
+&lt;img src="data:image/png;base64,......" alt="" <b>width="20px"</b> height="20px"&gt;  
+If the height is absent, the browser calculates it proportionally to the width of the image - therefore picture-heights can be omitted!
 
 ---
 # Bild-Lupe
@@ -15,4 +17,6 @@ Wenn dieser JS-Ausschnitt zwischen dem &lt;header&gt; und dem &lt;body&gt; einer
 Ein zweiter Klick passt die Bildgröße wieder auf die in der Datei eingestellte Breite und Höhe an.
 
 **Wichtig:**<br>
-Jedes Bild muss als eigenes Bild deklariert sein, z.B. mit: <b>&lt;img src="data:image/png;base64,......" alt="" width="20px" height="20px"&gt;</b>
+Jedes Bild muss seine eigene Breite (und Höhe) enthalten, z.B. mit:  
+&lt;img src="data:image/png;base64,......" alt="" <b>width="20px"</b> height="20px"&gt;  
+Bei fehlerder Höhenangabe berechnet der Browser diese proportional zur Breite des Bildes - daher können Höhen auch weggelassen werden!
