@@ -1,2 +1,12 @@
-# Picture-List-Encreaser
-Adds a "magnifying click" for all pictures of a html-file
+# Picture-Magnifier #
+**Adds a "zoom in" click for all images in an HTML file**
+
+If this JS snippet is inserted between the &lt;header&gt; and the &lt;body&gt; of a HTML file, a single mouse click on the picture will enlarge the resized image to its original size.
+A second click will resize the image to the width and height specified in the file.
+
+---
+# Bild-Lupe
+**Fügt ein „Vergrößern“-Klick für alle Bilder in einer HTML-Datei hinzu**
+
+Wenn dieser JS-Ausschnitt zwischen dem &lt;header&gt; und dem &lt;body&gt; einer HTML-Datei eingefügt wird, genügt ein Mausklick auf das jeweilige Bild, um das skalierte Bild auf seine Originalgröße zu vergrößern.
+Ein zweiter Klick passt die Bildgröße wieder auf die in der Datei eingestellte Breite und Höhe an.
